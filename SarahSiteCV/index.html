@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sarah Cosyns</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/style_common.css" />
+
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/png" href="./images/3flechesColor.ico">
+    </head>
+
+
+
+    <body>
+
+        <!-----------------------------BOUTON SCROLL TOP------------------------------->
+        <button onclick="topFunction()" id="myBtn"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!----------------------------------- HOME --------------------------------->
+
+        <div id="wrapper" >
+            <section>
+                <header class="animated pulse">
+                    <div class="line"><img class="avatar" src="./images/PPSarah..png" alt="Photo Profil Sarah Cosyns"></div>
+
+                    <h1>SARAH COSYNS</h1>
+
+                    <p>&lt; Web developer junior / &gt;</p>
+
+                    <div class="icones">
+                        <a href="#apropos"><img src="./images/moi.png" alt="A propos" class="hvr-grow-rotate"></a>
+
+                        <a href="#parcours"><img src="./images/parcoursPetit.png" alt="Parcours" class="hvr-grow-rotate"></a>
+
+                        <a href="#webdevelopeur"><img src="./images/WebDev.png" alt="Web dev" class="hvr-grow-rotate"></a>
+
+                        <a href="#contactezmoi"><img src="./images/2018-10-12_1055.png" alt="Contactez-moi" class="hvr-grow-rotate"></a>
+                    </div>
+                </header>
+            </section>
+        </div>
+
+        <!----------------------------------- MAIN ---------------------------------> 
+        <main>
+            <!--------------------------------- A PROPOS ------------------------------->
+
+            <h2 id="apropos" ><img src="./images/3flechesColor.ico" alt="Arrow Pink Left">&Agrave; PROPOS<img src="./images/3flechesColorRight.png" alt="Arrow Pink Left"></h2>
+
+            <p class="underline" /p>
+
+            <p id="propos">Actuellement en formation en Web Application Developer (Back-end) à Interface3 et certifiée en juin 2019, je suis curieuse, logique, ambitieuse et responsable. Je recherche un stage qui me permettra de mettre en pratique mes compétences mais surtout de les améliorer. J'espère trouver un stage dans un environnement stimulant dans lequel je puisse m'investir pleinement.</p>
+
+            <!----------------------------------- PARCOURS --------------------------------->
+
+            <h2 id="parcours"><img src="./images/3flechesColor.ico" alt="Arrow Pink Left">PARCOURS<img src="./images/3flechesColorRight.png" alt="Arrow Pink Left"></h2><p class="underline" /p>
+
+            <div id="accordion"></div>
+
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js'></script>
+            <script src='https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xfa1/t39.3284-6/12512184_1664789273772979_614489084_n.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+
+            <script  src="assets/js/index.js"></script>
+
+            <!----------------------------------- WEB DEV --------------------------------->
+            <div>
+                <h2 id="webdevelopeur"><img src="./images/3flechesColor.ico" alt="Arrow Pink Left">WEB DEVELOPPEMENT<img src="./images/3flechesColorRight.png" alt="Arrow Pink Left"></h2><p class="underline" /p>
+                <!-------------------------------------PORTFOLIO----------------------------------->
+                <div class="container">
+                    <div class="main">
+                        <div class="projet" id="projet">
+                            <div class="filtre">
+                                <h2>Site Curriculum Vitae</h2>
+                                <p>C'est durant ma formation à Interface3 que j'ai pu réaliser mon site. Les langages utilisés sont: HTML5 - CSS3 - Javascript</p>
+                                <a href="#" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="projet view-first">
+                            <div class="filtre">
+                                <h2>Hackathon</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe totam architecto voluptatum, a esse, eligendi!</p>
+                                <a href="#" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="projet" id="projet">
+                            <div class="filtre">
+                                <h2>Sous-marin</h2>
+                                <p>Durant le cours de la  "Culture de la programmation" à Interface 3, nous avons du réaliser une forme avec le logiciel OPENSCAD.</p>
+                                <a href="./sous-marin.html" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>            
+                    </div>
+
+                    <div class="main">
+                        <div class="projet">
+                            <div class="filtre">
+                                <h2>Projet #4</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe totam architecto voluptatum, a esse, eligendi!</p>
+                                <a href="#" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="projet view-first">
+                            <div class="filtre">
+                                <h2>Projet #5</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe totam architecto voluptatum, a esse, eligendi!</p>
+                                <a href="#" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>
+
+                        <div class="projet">
+                            <div class="filtre">
+                                <h2>Projet #6</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe totam architecto voluptatum, a esse, eligendi!</p>
+                                <a href="#" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>            
+                    </div>
+                </div>  
+            </div>
+
+            <!----------------------------------- CONTACTEZ-MOI --------------------------------->
+            <h2 id="contactezmoi"><img src="./images/3flechesColor.ico" alt="Arrow Pink Left">CONTACTEZ-MOI<img src="./images/3flechesColorRight.png" alt="Arrow Pink Left"></h2><p class="underline" /p>
+
+            <div class="main-container page__container">
+
+                <div class="page__section">
+                    <label class="field field_type2">
+                        <input class="field__input" placeholder="ex. Sarah Cosyns">
+                        <span class="field__label">Nom</span>
+                        <span class="field__line"></span>
+                    </label>
+                </div>
+
+                <div class="page__section">
+                    <label class="field field_type2">
+                        <input class="field__input" placeholder="ex. sarahcosyns1@gmail.com">
+                        <span class="field__label">Email</span>
+                        <span class="field__line"></span>
+                    </label>
+                </div>
+
+                <div class="page__section">
+                    <label class="field field_type1">
+                        <input class="field__input" placeholder="ex. Bonjour Sarah, ...">
+                        <span class="field__label">Votre message</span>
+                        <span class="field__line"></span>
+                    </label>
+                </div>
+            </div>
+            
+            <button id="bouton_formulaire">Envoyer</button>
+
+
+        </main>
+
+
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script  src="js/index.js"></script>
+
+        <!----------------------------------- FOOTER --------------------------------->
+        <footer>
+            <div class="footer">
+                <p>&copy; SARAH COSYNS | WEB APPLICATION DEVELOPER</p>
+                <a href="https://www.linkedin.com/in/sarah-cosyns-5a923bb5/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </footer>
+    </body>
+</html>
