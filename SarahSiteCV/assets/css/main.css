@@ -159,7 +159,7 @@ h2 {
     padding-top: 80px;
 }
 
-#competances {
+#competences {
     display: flex;
     margin: 100px;
 }
@@ -200,12 +200,6 @@ h2 {
     background-color: rgba(0,0,0, .5);
 }
 
-
-
-
-
-
-
 .accordion li:last-child .link { border-bottom: 0; }
 
 .accordion li i {
@@ -232,12 +226,10 @@ h2 {
     transform: rotate(180deg);
 }
 
-
-
 .submenu {
     display: none;
-    background: pink;
-    font-size: 14px;
+    background: #FFE7EF;
+    padding: 0;
 }
 
 .submenu li { 
@@ -248,7 +240,7 @@ h2 {
 .submenu a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: grey;
     padding: 12px;
     padding-left: 42px;
     -webkit-transition: all 0.25s ease;
@@ -620,6 +612,12 @@ body{
 
 #bouton_formulaire:hover {
     border: 2px solid #FFE7EF;
+}
+
+#download {
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 150px;
 }
 
 /*<!----------------------------------- FOOTER --------------------------------->*/
