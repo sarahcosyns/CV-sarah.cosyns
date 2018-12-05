@@ -171,7 +171,6 @@ h2 {
     list-style-type: none;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
     line-height: 20px;
     border-radius: 4px;
     position: relative;
@@ -618,6 +617,10 @@ body{
     color: grey;
     cursor: pointer;
     margin-bottom: 150px;
+}
+
+#download a {
+    color: grey;
 }
 
 /*<!----------------------------------- FOOTER --------------------------------->*/
