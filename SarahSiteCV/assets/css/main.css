@@ -655,3 +655,30 @@ footer a{
     margin: 5px 0 0 50px;
 }
 
+
+/*********VERSION GRANDE TABLETTE************/
+@media (max-width: 1050px){
+    body{
+        width: 1050px;
+    }
+    #competences{
+        display: block;
+    }
+    .container>.main{
+        display: block;
+    }
+    #myBtn{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*********VERSION PETITE TABLETTE************/
+@media (max-width: 770px){
+    body{
+        font-size: 2em;
+    }
+    header{
+        width: 450px;
+    }
+}
