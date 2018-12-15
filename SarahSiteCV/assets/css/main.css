@@ -150,6 +150,97 @@ h2 {
     padding-top: 80px; 
 }
 
+#container {
+    width: 750px;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: 40px auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#liste {
+    min-width: 3000px;
+    padding: 0px;
+}
+
+.element {
+    text-align: center;
+    display: inline-block;
+    padding: 40px;
+    background-color: grey;
+    width: 150px;
+    height: 250px;
+    margin: 0px 5px 20px 5px;
+    float: left;
+    white-space: normal;
+}
+
+.element ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.element img {
+    width: 50px;
+    height: 50px;
+}
+
+.jaartal { 
+    color: white;
+    padding: 5px;
+    font-size: 14pt;
+    font-weight: bold; 
+    border-bottom: 1px solid white;
+}
+
+.ondertitel { 
+    font-size: 12pt; 
+    color: white;
+    padding: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.description {
+    color: white;
+    font-style: italic;
+    padding: 5px;
+}
+
+.btnParcours{
+    height: 50px;
+    width: 50px;
+    margin: 40px;
+    cursor: pointer;
+    background-color: grey;
+    color: #fff;
+    border: 0px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px; 
+}
+
+.btnParcours img {
+    padding-top: 5px;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.btnParcours:hover {
+    background-color: dimgrey;
+    color: #000;
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        width: 90%;
+    }
+}
+
 
 /*<!----------------------------------- WEB DEV --------------------------------->*/
 
