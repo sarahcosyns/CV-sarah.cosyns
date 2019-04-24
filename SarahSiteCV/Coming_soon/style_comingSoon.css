@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+html{
+    background-color: #FFE7EF;
+}
+
+#texte{
+    width: 1000px;
+    margin: 15%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
