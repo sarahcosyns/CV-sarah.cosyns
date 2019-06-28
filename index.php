@@ -23,8 +23,6 @@ session_start();
         <link rel="shortcut icon" type="image/png" href="./images/3flechesColor.ico">
     </head>
 
-
-
     <body>
 
         <!-----------------------------BOUTON SCROLL TOP------------------------------->
@@ -86,21 +84,23 @@ session_start();
 
             <div id="container">
                 <ul id="liste">
-                    <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2018-2019</li><li class="ondertitel">Web Application Developer</li><li class="description">Interface3 - Certification: Europass - C#</li></ul></li>
+                   <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2019 (2 mois)</li><li class="ondertitel">Stage - McArnolds</li><li class="description">Interface3 - Réalisation du projet "Inspirations" en Symfony4</li></ul></li>
 
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2018 (3 jours)</li><li class="ondertitel">Hackathon</li><li class="description">Interface3 -  Développement d'un quizz pour apprendre à coder. Langages: Javascript</li></ul></li>
+                    
+                    <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2018-2019</li><li class="ondertitel">Web Application Developer</li><li class="description">Interface3 - Certification: Europass - C#</li></ul></li>
 
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2014-2019</li><li class="ondertitel">Responsable VIP</li><li class="description">Bloody Louis</li></ul></li>
 
+                    <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2017 (2 mois)</li><li class="ondertitel">Exposition #HARCELEMENTDERUE</li><li class="description">E.P.F.C (Relation Publiques) - Création d'un événement</li></ul></li>
+
+                    <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2016 (3 mois)</li><li class="ondertitel">Edition Ventures Stage</li><li class="description">E.P.F.C (Relations Publiques) - Organisation d'événement pour le magazine Gentleman et ELLE Belgique</li></ul></li>
+                    
                     <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2014-2017</li><li class="ondertitel">Relations Publiques</li><li class="description">Enseignement de Promotion et de Formation Continue</li></ul></li>
 
-                    <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2017 (2 mois)</li><li class="ondertitel">Exposition #HARCELEMENTDERUE</li><li class="description">Enseignement de Promotion et Formation Continue (Relation Publiques) - Création d'un événement</li></ul></li>
-
-                    <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2016 (3 mois)</li><li class="ondertitel">Edition Ventures Stage</li><li class="description">Enseignement de Promotion et Formation Continue (Relations Publiques) - Organisation d'événement pour le magazine Gentleman et ELLE Belgique</li></ul></li>
-
-                    <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2010-2013</li><li class="ondertitel">Psychologie</li><li class="description">Université Libre de Bruxelles</li></ul></li>
-
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2010-2014</li><li class="ondertitel">Barmaid</li><li class="description">Parc Savoy, Club Clandestin, Mezza</li></ul></li>
+                    
+                    <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2010-2013</li><li class="ondertitel">Psychologie</li><li class="description">Université Libre de Bruxelles</li></ul></li>
                 </ul>
 
 
@@ -123,8 +123,8 @@ session_start();
                         <li>
                             <div class="link"><i class="fa fa-code" aria-hidden="true"></i>Langages<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
+                                <li><a href="#">PHP</a></li>
                                 <li><a href="#">C#</a></li>
-                                <li><a href="#">PHP 5</a></li>
                                 <li><a href="#">SQL</a></li>
                                 <li><a href="#">Javascript</a></li>
                             </ul>
@@ -134,7 +134,7 @@ session_start();
                             <ul class="submenu">
                                 <li><a href="#">HTML 5</a></li>
                                 <li><a href="#">CSS 3</a></li>
-                                <li><a href="#">XML/XSLT</a></li>
+                                <li><a href="#">XML</a></li>
                                 <li><a href="#">Ajax</a></li>
                                 <li><a href="#">Json</a></li>
                                 <li><a href="#">jQuery</a></li>
@@ -145,7 +145,6 @@ session_start();
                         <li>
                             <div class="link"><i class="fa fa-cogs" aria-hidden="true"></i>Analyse<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
-                                <li><a href="#">Use cases</a></li>
                                 <li><a href="#">Analyse de DB</a></li>
                                 <li><a href="#">Modélisation UML</a></li>
                             </ul>
@@ -160,7 +159,7 @@ session_start();
                                 <li><a href="#">Ergonomie</a></li>
                                 <li><a href="#">Hébergement</a></li>
                                 <li><a href="#">Référencement SEO</a></li>
-                                <li><a href="#">Méthode RAD &amp; SCRUM</a></li>
+                                <li><a href="#">Méthode SCRUM</a></li>
                                 <li><a href="#">Rédaction pour le web</a></li>
                                 <li><a href="#">Droit internet</a></li>
                             </ul>
@@ -177,11 +176,12 @@ session_start();
                         <li>
                             <div class="link"><i class="fa fa-wrench" aria-hidden="true"></i>Outils / IDE<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
-                                <li><a href="#">Git / GitHub</a></li>
-                                <li><a href="#">Visual Studio 2015</a></li>
+                                <li><a href="#">PhpStorm</a></li>
                                 <li><a href="#">NetBeans</a></li>
-                                <li><a href="#">Visual Paradigm</a></li>
+                                <li><a href="#">Visual Studio 2015</a></li>
                                 <li><a href="#">Brackets</a></li>
+                                <li><a href="#">Visual Paradigm</a></li>
+                                <li><a href="#">Git / GitHub</a></li>
                                 <li><a href="#">FileZilla</a></li>
                                 <li><a href="#">XAMPP</a></li>
                             </ul>
@@ -192,15 +192,14 @@ session_start();
                         <li>
                             <div class="link"><i class="fa fa-code-fork" aria-hidden="true"></i>Framework<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
+                                <li><a href="#">Symfony4</a></li>
                                 <li><a href="#">ASP.net</a></li>
-                                <li><a href="#">Symfony</a></li>
                             </ul>
                         </li>
                         <li>
                             <div class="link"><i class="fa fa-wifi" aria-hidden="true"></i>Serveur Web<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
                                 <li><a href="#">Apache</a></li>
-                                <li><a href="#">IIS</a></li>
                             </ul>
                         </li>
                         <li>
@@ -212,7 +211,6 @@ session_start();
                         <li>
                             <div class="link"><i class="fa fa-mobile" aria-hidden="true"></i>Mobile<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
-                                <li><a href="#">Cordova</a></li>
                                 <li><a href="#">Ionic</a></li>
                             </ul>
                         </li>
@@ -226,7 +224,6 @@ session_start();
                         <li>
                             <div class="link"><i class="fa fa-paint-brush" aria-hidden="true"></i>Graphisme<i class="fa fa-chevron-down"></i></div>
                             <ul class="submenu">
-                                <li><a href="#">Photoshop</a></li>
                                 <li><a href="#">Indesign</a></li>
                                 <li><a href="#">The Gimp</a></li>
                             </ul>

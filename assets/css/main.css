@@ -215,6 +215,7 @@ a {
 }
 
 .btnParcours{
+    outline: none;
     height: 50px;
     width: 50px;
     margin: 40px;
@@ -773,7 +774,7 @@ footer a{
 @media (max-width: 770px){
     body{
         font-size: 2em;
-        width: 770px;
+        width: 800px;
     }
 }
 
