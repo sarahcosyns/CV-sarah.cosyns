@@ -421,20 +421,37 @@ a {
     overflow: hidden;
     position: relative;
     text-align: center;
-    background-image: url(../../images/fume.jpg);
+    background-image: url(../../images/projets/fume.jpg);
     border: 1px solid grey;
 }
 
 #cv {
-    background-image: url(../../images/siteCV.png);
+    background-image: url(../../images/projets/cv.jpeg);
+    background-size: cover;
 }
 
 #hackathon {
-    background-image: url(../../images/hackathon18.png);
+    background-image: url(../../images/projets/hackathon18.png)
 }
 
 #sousmarin {
-    background-image: url(../../images/sousMarin.png);
+    background-image: url(../../images/projets/sousMarin.png);
+    background-size: cover;
+}
+
+#videsneakers{
+    background-image: url(../../images/projets/vide-sneakers.png);
+    background-size: cover;
+}
+
+#inspirations{
+    background-image: url(../../images/projets/inspirations.png);
+    background-size: cover;
+}
+
+#bicko{
+    background-image: url(../../images/projets/bicko.jpeg);
+    background-size: cover;
 }
 
 .filtre {
@@ -786,4 +803,7 @@ footer a{
     header{
         width: 568px;
     }
+    .line {
+    margin:auto;
+}
 }

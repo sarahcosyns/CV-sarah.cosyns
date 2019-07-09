@@ -7,7 +7,7 @@ session_start();
         <meta charset="UTF-8">
         <title>Sarah Cosyns</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 
         <link rel="stylesheet" href="assets/css/main.css">
@@ -84,10 +84,10 @@ session_start();
 
             <div id="container">
                 <ul id="liste">
-                   <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2019 (2 mois)</li><li class="ondertitel">Stage - McArnolds</li><li class="description">Interface3 - Réalisation du projet "Inspirations" en Symfony4</li></ul></li>
+                    <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2019 (2 mois)</li><li class="ondertitel">Stage - McArnolds</li><li class="description">Interface3 - Réalisation du projet "Inspirations" en Symfony4</li></ul></li>
 
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2018 (3 jours)</li><li class="ondertitel">Hackathon</li><li class="description">Interface3 -  Développement d'un quizz pour apprendre à coder. Langages: Javascript</li></ul></li>
-                    
+
                     <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2018-2019</li><li class="ondertitel">Web Application Developer</li><li class="description">Interface3 - Certification: Europass - C#</li></ul></li>
 
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2014-2019</li><li class="ondertitel">Responsable VIP</li><li class="description">Bloody Louis</li></ul></li>
@@ -95,11 +95,11 @@ session_start();
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2017 (2 mois)</li><li class="ondertitel">Exposition #HARCELEMENTDERUE</li><li class="description">E.P.F.C (Relation Publiques) - Création d'un événement</li></ul></li>
 
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2016 (3 mois)</li><li class="ondertitel">Edition Ventures Stage</li><li class="description">E.P.F.C (Relations Publiques) - Organisation d'événement pour le magazine Gentleman et ELLE Belgique</li></ul></li>
-                    
+
                     <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2014-2017</li><li class="ondertitel">Relations Publiques</li><li class="description">Enseignement de Promotion et de Formation Continue</li></ul></li>
 
                     <li class="element"><ul><img src="./images/work.png" alt=""><li class="jaartal">2010-2014</li><li class="ondertitel">Barmaid</li><li class="description">Parc Savoy, Club Clandestin, Mezza</li></ul></li>
-                    
+
                     <li class="element"><ul><img src="./images/study.png" alt=""><li class="jaartal">2010-2013</li><li class="ondertitel">Psychologie</li><li class="description">Université Libre de Bruxelles</li></ul></li>
                 </ul>
 
@@ -267,14 +267,6 @@ session_start();
                     </div>
 
                     <div class="main">
-                        <div class="projet">
-                            <div class="filtre">
-                                <h2>ASP.NET</h2>
-                                <p>Coming Soon</p>
-                                <a href="#" class="bouton">Voir le projet</a>
-                            </div>
-                        </div>
-
                         <div class="projet view-first">
                             <div class="filtre">
                                 <h2>Alexia Nakhai</h2>
@@ -289,19 +281,37 @@ session_start();
                                 <p>Pour le cours de PHP/Symfony nous avons du créer un projet en Symfony 4.</p>
                                 <a href="https://github.com/sarahcosyns/vide-sneakers" class="bouton">Voir le projet</a>
                             </div>
-                        </div>            
+                        </div> 
+
+                        <div class="projet" id="inspirations">
+                            <div class="filtre">
+                                <h2>Inspirations</h2>
+                                <p>Durant mon stage chez McArnolds j'ai réalisé un projet en Symfony 4 avec jQuery, Less et Ajax.</p>
+                                <a href="#" class="bouton">Privée</a>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="main">
+                        <div class="projet" id="bicko">
+                            <div class="filtre">
+                                <h2>Bicko</h2>
+                                <p>Réalisation d'un mini projet avec l'API Villo-Bruxelles et le moyn de payement Stripe</p>
+                                <a href="https://github.com/sarahcosyns/bicko" class="bouton">Voir le projet</a>
+                            </div>
+                        </div>           
                     </div>
                 </div>  
             </div>
 
             <!----------------------------------- CONTACTEZ-MOI --------------------------------->
             <h2 id="contactezmoi"><img src="./images/3flechesColor.ico" alt="Arrow Pink Left">CONTACTEZ-MOI<img src="./images/3flechesColorRight.png" alt="Arrow Pink Left"></h2><p class="underline" /p>
-            
-            
+
+
             <?php if(array_key_exists('errors', $_SESSION)): ?>
-                <div class="alert alert-danger">
-                    <? implode('<br>', $_SESSION['errors']); ?>
-                </div>
+            <div class="alert alert-danger">
+                <? implode('<br>', $_SESSION['errors']); ?>
+            </div>
             <?php endif; ?>
 
             <form action="post_contact.php"  method="POST" class="main-container page__container">
